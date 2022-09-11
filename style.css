@@ -1,0 +1,71 @@
+/*
+SYNTAX:
+selector{property: value;
+ }
+
+*/
+
+*{font-family:"Roboto", sans-serif;
+}
+
+h1,h2{
+	font-family: "Montserrat", sans-seriff;
+}
+
+img{
+	height:200px;
+	width:250px;
+	border:2px solid black;
+	border-radius:35%;
+	background-color: solid red;
+}
+
+#Landing
+{
+/*vh viewport height of the user monitor/screen-->*/
+	height:80vh;
+/*allign elements horizontally and vertically*/
+	display:flex;
+	/*aligns the flex into column/vertically*/
+	flex-direction:column;
+	/*aligns the flex items horizontally*/
+	align-items:center;
+	justify-content:center;
+	/*color:2FCFE4;*/
+}
+#Gallery{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	height:90vh;
+	border-radius:6px;
+	/*color:#E198080*/
+
+}
+ul{
+	list-style: none;
+	padding:0;
+}
+html{
+	scroll-behavior:smooth;
+}
+h2{
+	color:#007bff;
+	font-style: italic;
+}
+h1{
+	color:#094b54;
+}
+li{
+	font-size: 18px;
+	color:#DDE9E9;
+}
+.tools{
+	border:5px solid#0E9090;
+	height:200px;
+	/* percentage depends on the width of the parents elements*/
+	width: 75%;
+	margin:20px;
+	padding: 25px;
+}
